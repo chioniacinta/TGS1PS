@@ -30,5 +30,5 @@ if uploaded_file is not None:
                 st.bar_chart(df[column])
             elif chart_type == "Area":
                 st.area_chart(df[column])
-else:
+else: 
     st.write("Silakan unggah file CSV untuk melihat visualisasi.")
